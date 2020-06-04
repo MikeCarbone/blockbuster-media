@@ -33,7 +33,7 @@ export default function Home() {
         <Image objectPosition="top" height="400px" src="https://www.denofgeek.com/wp-content/uploads/2017/10/batman-last-knight-on-earth-scott-snyder-greg-capullo.jpg?fit=1322%2C890" />
         <Wrapper>
             <VertSpace size={1} />
-            <Heading color="var(--black)">Can Batman fly? No but here's why he should.</Heading>
+            <Heading color="var(--black)">Can Batman fly? No, but here's why he should.</Heading>
             <VertSpace size={1} />
             <Box alignItems="center">
                 <Image margin="0 10px 0 0" height="50px" width="50px" borderRadius="25px" src="https://pbs.twimg.com/profile_images/1255331282495684608/LCHYEnnf_400x400.jpg" />
