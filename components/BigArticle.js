@@ -3,8 +3,11 @@ import NextLink from 'next/link'
 
 import {
   Box,
+  Button,
   Copy,
-  Image
+  Heading,
+  Image,
+  VertSpace
 } from 'blockbuster-design-system'
 
 const BigArticle = props => (
