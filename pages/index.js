@@ -16,37 +16,9 @@ import {
   VertSpace
 } from 'blockbuster-design-system'
 
-
-const BigArticle = props => (
-  <>
-    <Box className="big-article" flexDirection="column" justifyContent="left">
-      <Image height="460px" src={props.imgSrc} />
-      <VertSpace />
-      <Heading size={2} color="var(--black)">{props.title}</Heading>
-      <Copy margin="5px 0 0 0" color="var(--black)">{props.subtitle}</Copy>
-      <Button href="/article" linkWrapper={NextLink} secondary margin="10px auto 0 0">{props.buttonText}</Button>
-    </Box>
-    <style jsx>{``}</style>
-  </>
-)
-
-const SmallArticle = props => (
-  <NextLink href="/article">
-    <a style={{ width: props.width ? props.width : 'auto' }}>
-      <Box display="block">
-        <Image height="120px" width="100%" src={props.imgSrc} />
-        <Copy margin="5px 0 20px 0" color="var(--black)" fontWeight="400" >{props.title}</Copy>
-      </Box>
-    </a>
-  </NextLink>
-)
-
-const HorSpace = () => (
-  <>
-    <div className="hor"></div>
-    <style jsx>{` .hor { width: 75px; }  `}</style>
-  </>
-)
+import SmallArticle from '../components/SmallArticle'
+import BigArticle from '../components/BigArticle'
+import HorSpace from '../components/HorSpace'
 
 export default function Home() {
   return (
